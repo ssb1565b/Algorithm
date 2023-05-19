@@ -1,0 +1,1 @@
+const solution = (box, n) => box.map((el)=> Math.floor(el/n)).reduce((acc,cur)=> acc * cur)
